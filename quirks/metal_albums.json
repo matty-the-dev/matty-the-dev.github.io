@@ -1,0 +1,69 @@
+{
+    "{27D1971E-6FBD-44DA-BE93-C7EBD2403DF6}": {
+        "name": "Follow the Leader",
+        "artist": {
+            "name": "Korn",
+            "wikipedia": "https://en.wikipedia.org/wiki/Korn",
+            "year_formed": "1993",
+            "country": "United States of America"
+        },
+        "year": "1998",
+        "subgenre": "Nu Metal",
+        "duration": 4208,
+        "tracks_num": 25,
+        "tracks_num_streaming": 14,
+        "album_art": "https://ia801802.us.archive.org/22/items/mbid-d33bb14b-8aac-45c5-abf6-d18c9a17f69e/mbid-d33bb14b-8aac-45c5-abf6-d18c9a17f69e-23088668657_thumb1200.jpg",
+        "wikipedia": "https://en.wikipedia.org/wiki/Follow_the_Leader_(Korn_album)",
+        "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lN3gSClGJU--GAHceqHudhjb4id44kPY4&playnext=1&index=1",
+        "youtube_music": "https://music.youtube.com/playlist?list=OLAK5uy_l9DBNhKxExv0Xd2CrzEY0vmUupeVjzRVw",
+        "spotify": "https://open.spotify.com/album/0gsiszk6JWYwAyGvaTTud4?si=Ydhx8pCUSW6GnNXqrpoGgQ"
+    },
+    "{18322494-0964-430A-B62A-84B3D023C177}": {
+        "name": "Toxicity",
+        "artist": {
+            "name": "System of a Down"
+        },
+        "year": "2001",
+        "subgenre": "Nu Metal",
+        "duration": 2647,
+        "tracks_num": 15,
+        "tracks_num_streaming": 15,
+        "album_art": "https://ia600300.us.archive.org/6/items/mbid-b9f8b5cd-3e9a-411a-a31f-b8c6016c1594/mbid-b9f8b5cd-3e9a-411a-a31f-b8c6016c1594-27307374025_thumb1200.jpg",
+        "wikipedia": "https://en.wikipedia.org/wiki/Toxicity_(album)",
+        "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kb1yvg1bLW2yKdKxO1qvzGK7pFl9TuFBw",
+        "youtube_music": "https://music.youtube.com/playlist?list=OLAK5uy_n1sOLxWCfeedpeiN-YS7H5xJq5Qptac-M",
+        "spotify": "https://open.spotify.com/album/6jWde94ln40epKIQCd8XUh?si=aet2pdE5SRWbcQ0NabE5oA"
+    },
+    "{1C19D14E-1F2A-4919-827B-7CB10E6F4812}": {
+        "name": "F & M",
+        "artist": {
+            "name": "Lindemann"
+        },
+        "year": "2019",
+        "subgenre": "Neue Deutsche Härte",
+        "duration": 2585,
+        "tracks_num": 11,
+        "tracks_num_streaming": 13,
+        "album_art": "https://ia802909.us.archive.org/0/items/mbid-2bdc81cc-f8df-48b7-86fd-603a1d5dfba0/mbid-2bdc81cc-f8df-48b7-86fd-603a1d5dfba0-27275145794_thumb1200.jpg",
+        "wikipedia": "https://en.wikipedia.org/wiki/F_%26_M_(album)",
+        "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mThBo6YIu87j8j87WS3sVmjGgyh_VTJk8",
+        "youtube_music": "https://music.youtube.com/playlist?list=OLAK5uy_kq_qOvRty_vYEFLhnjyHY-jrUywGAPtAs",
+        "spotify": "https://open.spotify.com/album/7vTIPNCT9nCHw8hhskPYj1?si=85K7vyceTj21Sn5eVNH4FA"
+    },
+    "{A57AB7CA-CB74-41BD-B7F7-AC46A2E6FCBB}": {
+        "name": "Strait Up",
+        "artist": {
+            "name": "Snot"
+        },
+        "year": "2001",
+        "subgenre": "Nu Metal",
+        "duration": 3017,
+        "tracks_num": 15,
+        "tracks_num_streaming": 14,
+        "album_art": "https://ia800500.us.archive.org/23/items/mbid-a11d17ee-c0fa-4a4e-9d35-60867c630e4f/mbid-a11d17ee-c0fa-4a4e-9d35-60867c630e4f-11845306932_thumb1200.jpg",
+        "wikipedia": "https://en.wikipedia.org/wiki/Strait_Up",
+        "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_l31wO6jxB6Vd_YCsDB7Im4TY0ZP8jISeY",
+        "youtube_music": "https://music.youtube.com/playlist?list=OLAK5uy_llJrplW6G7iNeWnDkPd1fNAJ0AZDoQqeM",
+        "spotify": "https://open.spotify.com/album/1goFw0cbXvSmDWKlGoBWVo?si=e35ypelIQ5a4SeQmBaEq_Q"
+    }
+}
