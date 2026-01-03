@@ -7,3 +7,7 @@ tumuc.html
 
 # just in case...
 .well*
+
+# codemod
+# the crappy thing by Meta that dont even work
+.codemod*

@@ -7,7 +7,7 @@
 #+TOC: headlines 3
 
 * About the Documentation
-The page/document you are currently looking at is the *Official Documentation for the CX Setup scripting language*. It was made primarily by Matthew ([[https://mf366-coding.github.io][MF366]]) using ~Org Mode~ on ~Emacs~, later exported to ~HTML~.
+The page/document you are currently looking at is the *Official Documentation for the CX Setup scripting language*. It was made primarily by Matthew ([[https://mf366-dev.github.io][MF366]]) using ~Org Mode~ on ~Emacs~, later exported to ~HTML~.
 
 ** Licensing (Docs)
 This documentation is licensed under the [[https://www.gnu.org/licenses/fdl-1.3.txt][*GNU Free Documentation License (GFDL)*]]. Therefore, all edits, reuses and whatnot of this documentation (valid for both ~Org~ and ~HTML~ versions of the docs) must comply with GFDL's terms and conditions.
@@ -20,7 +20,7 @@ If you wish to contribute to the documentation, I'd really appreciate it. Howeve
 - *Fixing typos is noble; flooding PRs with them is chaos.* Typo squatting is perfectly fine and helpful, but don't make too many /Pull Requests/ to fix typos in a row, as it causes unnecessary spam. The best alternative is to "bundle" several typo fixes in one PR.
 - *There are no stupid questions — only unanswered ones (and I try to avoid those).* If you have any questions, don't hesitate to ask, as I try to reply to all. You can use the following e-mail: [[mailto:real_mf366@yahoo.com][~real_mf366@yahoo.com~]].
 
-If those rules did not scare you away, the GitHub repository is [[https://github.com/MF366-Coding/mf366-coding.github.io][right here]]. Thanks ahead for your contributions.
+If those rules did not scare you away, the GitHub repository is [[https://github.com/mf366-dev/mf366-dev.github.io][right here]]. Thanks ahead for your contributions.
 
 * Comments
 Just like in any other scripting language, CXSetup allows comments, albeit only single-line ones.
@@ -282,10 +282,10 @@ Due to the slight complexity of one of its arguments, instead of just showing th
 #+begin_src cxsetup
 >>> REQUIRES ?? 0 ?? "neofetch"; // the 0 stands for "Install using system package manager"
 >>> REQUIRES ?? 0 ?? "cowsay"; // worth mentioning the command does not output anything or install anything
->>> REQUIRES ?? 1 ?? "MF366-Coding/WPlugZ-CLI"; // the 1 uses ContenterX itself to install ("Install using ContenterX")
+>>> REQUIRES ?? 1 ?? "mf366-dev/WPlugZ-CLI"; // the 1 uses ContenterX itself to install ("Install using ContenterX")
 >>> REQUIRES ?? 2 ?? "NCapybaraLib"; // the 2 stands for "Install using pip"
 >>> REQUIRES ?? 3 ?? "express"; // source number 3 stands for "Install using npm"
->>> REQUIRES ?? 4 ?? "https://github.com/MF366-Coding/WriterClassic/releases/download/v11.0.0/WriterClassic_v11.0.0_SetupWizard_x64.exe"; // source number 4 stands for "Get binary from a direct link" - you'll be using this a lot in Windows
+>>> REQUIRES ?? 4 ?? "https://github.com/mf366-dev/WriterClassic/releases/download/v11.0.0/WriterClassic_v11.0.0_SetupWizard_x64.exe"; // source number 4 stands for "Get binary from a direct link" - you'll be using this a lot in Windows
 >>> REQUIRES ?? 5 ?? "sl"; // this is a ValueError - only sources [0,4] are available
 #+end_src
 

@@ -159,8 +159,8 @@
   td.org-left   { text-align: left;   }
   td.org-center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara { display: inline; }
-  .footdef  { margin-bottom: 1em; }
+  .bartpara { display: inline; }
+  .bartdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
   .equation-container {
@@ -276,7 +276,7 @@
 <h2 id="org9df94c4"><span class="section-number-2">1.</span> About the Documentation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-The page/document you are currently looking at is the <b>Official Documentation for the CX Setup scripting language</b>. It was made primarily by Matthew (<a href="https://mf366-coding.github.io">MF366</a>) using <code>Org Mode</code> on <code>Emacs</code>, later exported to <code>HTML</code>.
+The page/document you are currently looking at is the <b>Official Documentation for the CX Setup scripting language</b>. It was made primarily by Matthew (<a href="https://mf366-dev.github.io">MF366</a>) using <code>Org Mode</code> on <code>Emacs</code>, later exported to <code>HTML</code>.
 </p>
 </div>
 <div id="outline-container-orgb973ef3" class="outline-3">
@@ -302,7 +302,7 @@ If you wish to contribute to the documentation, I&rsquo;d really appreciate it. 
 </ul>
 
 <p>
-If those rules did not scare you away, the GitHub repository is <a href="https://github.com/MF366-Coding/mf366-coding.github.io">right here</a>. Thanks ahead for your contributions.
+If those rules did not scare you away, the GitHub repository is <a href="https://github.com/mf366-dev/mf366-dev.github.io">right here</a>. Thanks ahead for your contributions.
 </p>
 </div>
 </div>
@@ -1274,10 +1274,10 @@ Due to the slight complexity of one of its arguments, instead of just showing th
 <div class="org-src-container">
 <pre class="src src-cxsetup">&gt;&gt;&gt; <span style="color: #ff2afc; font-weight: bold;">REQUIRES</span> <span style="color: #1ea8fc;">??</span> <span style="color: #ffd400; font-weight: bold;">0</span> <span style="color: #1ea8fc;">??</span> <span style="color: #7984D1;">"neofetch"</span><span style="color: #1ea8fc;">;</span> <span style="color: #546A90;">// </span><span style="color: #546A90;">the 0 stands for "Install using system package manager"</span>
 &gt;&gt;&gt; <span style="color: #ff2afc; font-weight: bold;">REQUIRES</span> <span style="color: #1ea8fc;">??</span> <span style="color: #ffd400; font-weight: bold;">0</span> <span style="color: #1ea8fc;">??</span> <span style="color: #7984D1;">"cowsay"</span><span style="color: #1ea8fc;">;</span> <span style="color: #546A90;">// </span><span style="color: #546A90;">worth mentioning the command does not output anything or install anything</span>
-&gt;&gt;&gt; <span style="color: #ff2afc; font-weight: bold;">REQUIRES</span> <span style="color: #1ea8fc;">??</span> <span style="color: #ffd400; font-weight: bold;">1</span> <span style="color: #1ea8fc;">??</span> <span style="color: #7984D1;">"MF366-Coding/WPlugZ-CLI"</span><span style="color: #1ea8fc;">;</span> <span style="color: #546A90;">// </span><span style="color: #546A90;">the 1 uses ContenterX itself to install ("Install using ContenterX")</span>
+&gt;&gt;&gt; <span style="color: #ff2afc; font-weight: bold;">REQUIRES</span> <span style="color: #1ea8fc;">??</span> <span style="color: #ffd400; font-weight: bold;">1</span> <span style="color: #1ea8fc;">??</span> <span style="color: #7984D1;">"mf366-dev/WPlugZ-CLI"</span><span style="color: #1ea8fc;">;</span> <span style="color: #546A90;">// </span><span style="color: #546A90;">the 1 uses ContenterX itself to install ("Install using ContenterX")</span>
 &gt;&gt;&gt; <span style="color: #ff2afc; font-weight: bold;">REQUIRES</span> <span style="color: #1ea8fc;">??</span> <span style="color: #ffd400; font-weight: bold;">2</span> <span style="color: #1ea8fc;">??</span> <span style="color: #7984D1;">"NCapybaraLib"</span><span style="color: #1ea8fc;">;</span> <span style="color: #546A90;">// </span><span style="color: #546A90;">the 2 stands for "Install using pip"</span>
 &gt;&gt;&gt; <span style="color: #ff2afc; font-weight: bold;">REQUIRES</span> <span style="color: #1ea8fc;">??</span> <span style="color: #ffd400; font-weight: bold;">3</span> <span style="color: #1ea8fc;">??</span> <span style="color: #7984D1;">"express"</span><span style="color: #1ea8fc;">;</span> <span style="color: #546A90;">// </span><span style="color: #546A90;">source number 3 stands for "Install using npm"</span>
-&gt;&gt;&gt; <span style="color: #ff2afc; font-weight: bold;">REQUIRES</span> <span style="color: #1ea8fc;">??</span> <span style="color: #ffd400; font-weight: bold;">4</span> <span style="color: #1ea8fc;">??</span> <span style="color: #7984D1;">"https://github.com/MF366-Coding/WriterClassic/releases/download/v11.0.0/WriterClassic_v11.0.0_SetupWizard_x64.exe"</span><span style="color: #1ea8fc;">;</span> <span style="color: #546A90;">// </span><span style="color: #546A90;">source number 4 stands for "Get binary from a direct link" - you'll be using this a lot in Windows</span>
+&gt;&gt;&gt; <span style="color: #ff2afc; font-weight: bold;">REQUIRES</span> <span style="color: #1ea8fc;">??</span> <span style="color: #ffd400; font-weight: bold;">4</span> <span style="color: #1ea8fc;">??</span> <span style="color: #7984D1;">"https://github.com/mf366-dev/WriterClassic/releases/download/v11.0.0/WriterClassic_v11.0.0_SetupWizard_x64.exe"</span><span style="color: #1ea8fc;">;</span> <span style="color: #546A90;">// </span><span style="color: #546A90;">source number 4 stands for "Get binary from a direct link" - you'll be using this a lot in Windows</span>
 &gt;&gt;&gt; <span style="color: #ff2afc; font-weight: bold;">REQUIRES</span> <span style="color: #1ea8fc;">??</span> <span style="color: #ffd400; font-weight: bold;">5</span> <span style="color: #1ea8fc;">??</span> <span style="color: #7984D1;">"sl"</span><span style="color: #1ea8fc;">;</span> <span style="color: #546A90;">// </span><span style="color: #546A90;">this is a ValueError - only sources [0,4] are available</span>
 </pre>
 </div>
@@ -2431,10 +2431,10 @@ Below, you can find example scripts.
 CXSetup isn&rsquo;t limited to the interpreter.
 </p>
 <ul class="org-ul">
-<li><a href="https://github.com/MF366-Coding/CXSetup/blob/main/cxhighlight.py"><b>CX Setup Syntax Highlighter</b></a> (can be used in the terminal or imported and used from a Python file)</li>
+<li><a href="https://github.com/mf366-dev/CXSetup/blob/main/cxhighlight.py"><b>CX Setup Syntax Highlighter</b></a> (can be used in the terminal or imported and used from a Python file)</li>
 <li><b>CX Setup Linter</b> (coming soon)</li>
 <li><a href="https://marketplace.visualstudio.com/items/?itemName=MF366.cxsetup"><b>CX Setup Language for VSCode</b></a> (syntax highlighting for Visual Studio Code)</li>
-<li><a href="https://gist.github.com/MF366-Coding/6b65eeb415e3e6bfe86783b496193850"><b>CX Setup Language Major Mode for Emacs</b></a> (syntax highlighting for Emacs)</li>
+<li><a href="https://gist.github.com/mf366-dev/6b65eeb415e3e6bfe86783b496193850"><b>CX Setup Language Major Mode for Emacs</b></a> (syntax highlighting for Emacs)</li>
 </ul>
 </div>
 </div>

@@ -7,7 +7,7 @@
 #+TOC: headlines 2
 
 * About the Documentation
-The page/document you are currently looking at is the *Official Documentation for Terminal Supaplex Editor a.k.a. TSpE*. It was made primarily by Matthew ([[https://mf366-coding.github.io][MF366]]) using ~Org Mode~ on ~Emacs~, later exported to ~HTML~.
+The page/document you are currently looking at is the *Official Documentation for Terminal Supaplex Editor a.k.a. TSpE*. It was made primarily by Matthew ([[https://mf366-dev.github.io][MF366]]) using ~Org Mode~ on ~Emacs~, later exported to ~HTML~.
 
 ** Licensing (Docs)
 #+BEGIN_QUOTE
@@ -24,7 +24,7 @@ If you wish to contribute to the documentation, I'd really appreciate it. Howeve
 - *Fixing typos is noble; flooding PRs with them is chaos.* Typo squatting is perfectly fine and helpful, but don't make too many /Pull Requests/ to fix typos in a row, as it causes unnecessary spam. The best alternative is to "bundle" several typo fixes in one PR.
 - *There are no stupid questions — only unanswered ones (and I try to avoid those).* If you have any questions, don't hesitate to ask, as I try to reply to all. You can use the following e-mail: [[mailto:real_mf366@yahoo.com][~real_mf366@yahoo.com~]].
 
-If those rules did not scare you away, the GitHub repository is [[https://github.com/MF366-Coding/mf366-coding.github.io][right here]]. Thanks ahead for your contributions.
+If those rules did not scare you away, the GitHub repository is [[https://github.com/mf366-dev/mf366-dev.github.io][right here]]. Thanks ahead for your contributions.
 
 * What is TSpE?
 #+BEGIN_QUOTE
@@ -96,7 +96,7 @@ The commands ~imlost~ and ~help~ stand for the same thing: *documentation*. More
 ----------------------------------------------------------
 
 *** ~web~ / ~repo~
-The commands ~web~ and ~repo~ both open [[https://github.com/MF366-Coding/TSpE][TSpE's GitHub Repository]].
+The commands ~web~ and ~repo~ both open [[https://github.com/mf366-dev/TSpE][TSpE's GitHub Repository]].
 
 *Arguments:* None.
 

@@ -410,7 +410,7 @@ th {
 
 thead,
 tbody,
-tfoot,
+tbart,
 tr,
 td,
 th {
@@ -682,14 +682,14 @@ progress {
 	margin-bottom: 0;
 }
 
-.blockquote-footer {
+.blockquote-barter {
 	margin-top: -1rem;
 	margin-bottom: 1rem;
 	font-size: 0.875em;
 	color: #6c757d;
 }
 
-.blockquote-footer::before {
+.blockquote-barter::before {
 	content: "— ";
 }
 
@@ -4855,7 +4855,7 @@ fieldset:disabled .btn {
 }
 
 .card>.card-header+.list-group,
-.card>.list-group+.card-footer {
+.card>.list-group+.card-barter {
 	border-top: 0;
 }
 
@@ -4894,14 +4894,14 @@ fieldset:disabled .btn {
 	border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
 }
 
-.card-footer {
+.card-barter {
 	padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
 	color: var(--bs-card-cap-color);
 	background-color: var(--bs-card-cap-bg);
 	border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 
-.card-footer:last-child {
+.card-barter:last-child {
 	border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
 }
 
@@ -4981,7 +4981,7 @@ fieldset:disabled .btn {
 	}
 
 	.card-group>.card:not(:last-child) .card-img-bottom,
-	.card-group>.card:not(:last-child) .card-footer {
+	.card-group>.card:not(:last-child) .card-barter {
 		border-bottom-right-radius: 0;
 	}
 
@@ -4996,7 +4996,7 @@ fieldset:disabled .btn {
 	}
 
 	.card-group>.card:not(:first-child) .card-img-bottom,
-	.card-group>.card:not(:first-child) .card-footer {
+	.card-group>.card:not(:first-child) .card-barter {
 		border-bottom-left-radius: 0;
 	}
 }
@@ -6045,10 +6045,10 @@ fieldset:disabled .btn {
 	--bs-modal-header-border-color: var(--bs-border-color);
 	--bs-modal-header-border-width: 1px;
 	--bs-modal-title-line-height: 1.5;
-	--bs-modal-footer-gap: 0.5rem;
-	--bs-modal-footer-bg: ;
-	--bs-modal-footer-border-color: var(--bs-border-color);
-	--bs-modal-footer-border-width: 1px;
+	--bs-modal-barter-gap: 0.5rem;
+	--bs-modal-barter-bg: ;
+	--bs-modal-barter-border-color: var(--bs-border-color);
+	--bs-modal-barter-border-width: 1px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -6168,21 +6168,21 @@ fieldset:disabled .btn {
 	padding: var(--bs-modal-padding);
 }
 
-.modal-footer {
+.modal-barter {
 	display: flex;
 	flex-shrink: 0;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: flex-end;
-	padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * 0.5);
-	background-color: var(--bs-modal-footer-bg);
-	border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
+	padding: calc(var(--bs-modal-padding) - var(--bs-modal-barter-gap) * 0.5);
+	background-color: var(--bs-modal-barter-bg);
+	border-top: var(--bs-modal-barter-border-width) solid var(--bs-modal-barter-border-color);
 	border-bottom-right-radius: var(--bs-modal-inner-border-radius);
 	border-bottom-left-radius: var(--bs-modal-inner-border-radius);
 }
 
-.modal-footer>* {
-	margin: calc(var(--bs-modal-footer-gap) * 0.5);
+.modal-barter>* {
+	margin: calc(var(--bs-modal-barter-gap) * 0.5);
 }
 
 @media (min-width: 576px) {
@@ -6230,7 +6230,7 @@ fieldset:disabled .btn {
 }
 
 .modal-fullscreen .modal-header,
-.modal-fullscreen .modal-footer {
+.modal-fullscreen .modal-barter {
 	border-radius: 0;
 }
 
@@ -6253,7 +6253,7 @@ fieldset:disabled .btn {
 	}
 
 	.modal-fullscreen-sm-down .modal-header,
-	.modal-fullscreen-sm-down .modal-footer {
+	.modal-fullscreen-sm-down .modal-barter {
 		border-radius: 0;
 	}
 
@@ -6277,7 +6277,7 @@ fieldset:disabled .btn {
 	}
 
 	.modal-fullscreen-md-down .modal-header,
-	.modal-fullscreen-md-down .modal-footer {
+	.modal-fullscreen-md-down .modal-barter {
 		border-radius: 0;
 	}
 
@@ -6301,7 +6301,7 @@ fieldset:disabled .btn {
 	}
 
 	.modal-fullscreen-lg-down .modal-header,
-	.modal-fullscreen-lg-down .modal-footer {
+	.modal-fullscreen-lg-down .modal-barter {
 		border-radius: 0;
 	}
 
@@ -6325,7 +6325,7 @@ fieldset:disabled .btn {
 	}
 
 	.modal-fullscreen-xl-down .modal-header,
-	.modal-fullscreen-xl-down .modal-footer {
+	.modal-fullscreen-xl-down .modal-barter {
 		border-radius: 0;
 	}
 
@@ -6349,7 +6349,7 @@ fieldset:disabled .btn {
 	}
 
 	.modal-fullscreen-xxl-down .modal-header,
-	.modal-fullscreen-xxl-down .modal-footer {
+	.modal-fullscreen-xxl-down .modal-barter {
 		border-radius: 0;
 	}
 
@@ -12855,6 +12855,10 @@ a:hover .skill-img {
 	filter: grayscale(100%) opacity(80%);
 	width: 200px;
 	height: 200px;
+}
+
+#deprecated .project-img {
+	filter: grayscale(100%);
 }
 
 .project-img:hover {
