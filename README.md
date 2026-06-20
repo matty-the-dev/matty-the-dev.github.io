@@ -1,1 +1,4 @@
-# [Site](https://mf366-dev.github.io)
+# My Site
+_(Now with a custom domain)_
+
+**Visit at [mf366.dev](https://mf366.dev/)**

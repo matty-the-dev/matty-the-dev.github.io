@@ -20,9 +20,9 @@ This documentation is licensed under the [[https://www.gnu.org/licenses/fdl-1.3.
 If you wish to contribute to the documentation, I'd really appreciate it. However, there are some rules and guidelines you must follow:
 - *KISS: Keep It Simple, Stupid.* Make sure your changes do not affect the simplicity and readability of the documentation in a negative way.
 - *If it ain’t broken, don’t redesign it.* Do not propose changes to how the UI should look, as the current combination of HTML and CSS aims for simplicity, due to the fact it's very objective.
-- *Editing the HTML export is like painting a screenshot — impressive, but pointless.* Make /Pull Requests/ for the ~Org~ files, not the ~HTML~ ones.
+- *Editing the HTML export is like painting a screenshot - impressive, but pointless.* Make /Pull Requests/ for the ~Org~ files, not the ~HTML~ ones.
 - *Fixing typos is noble; flooding PRs with them is chaos.* Typo squatting is perfectly fine and helpful, but don't make too many /Pull Requests/ to fix typos in a row, as it causes unnecessary spam. The best alternative is to "bundle" several typo fixes in one PR.
-- *There are no stupid questions — only unanswered ones (and I try to avoid those).* If you have any questions, don't hesitate to ask, as I try to reply to all. You can use the following e-mail: [[mailto:real_mf366@yahoo.com][~real_mf366@yahoo.com~]].
+- *There are no stupid questions - only unanswered ones (and I try to avoid those).* If you have any questions, don't hesitate to ask, as I try to reply to all. You can use the following e-mail: [[mailto:real_mf366@yahoo.com][~real_mf366@yahoo.com~]].
 
 If those rules did not scare you away, the GitHub repository is [[https://github.com/mf366-dev/mf366-dev.github.io][right here]]. Thanks ahead for your contributions.
 
